@@ -1,0 +1,19 @@
+{
+    "name": "tp-studi---bdd---salledesport",
+    "version": "1.0.0",
+    "description": "Création et Administration d'une BDD",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Emi Ick-Art",
+    "license": "ISC",
+    "dependencies": {
+        "crypto-js": "^4.1.1",
+        "express": "^4.18.1",
+        "mongoose": "^6.3.6",
+        "nodemon": "^2.0.19",
+        "uid2": "^1.0.0"
+    }
+}

@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Vs Code
+
+.vscode/
+
+# Images Postman
+z-folder-img/*
+!z-folder-img/diagramm.png
