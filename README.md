@@ -1,12 +1,12 @@
 # API-Salle-de-Sport
 
-**Projet d'API Salle de sport** - Juin 2022
+__Projet d'API Salle de sport__ - *Juin 2022*
 
 ## Objectif principal
 
 Créer et administrer une base de données non relationnelle
 
-##Objectifs détaillés :
+## Objectifs détaillés :
 - Créer une API
 - Se connecter à une database
 - Récupérer des données au format JSON
@@ -16,13 +16,14 @@ Créer et administrer une base de données non relationnelle
 - Découvrir l'outil MongoDB Compass
 - Organiser le code selon une structure Modèles, Routes, Contrôleurs
 
-##Environnement de travail
+## Environnement de travail
 
 - Node.Js,
-- Npx,
 - Postman,
 - MongoDBCompass,
 - serveur Express.js
+- Npx, nodemon
+- Uid2, crypto-js
 - Mongoose
 - API Rest
 
@@ -45,4 +46,10 @@ Serveur local
 ```
 npm init
 npm install
+```
+
+Remplacer l'URI par celui du serveur local, puis lancer le serveur :
+
+```
+nodemon start
 ```
